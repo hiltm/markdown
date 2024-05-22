@@ -11,7 +11,7 @@ Hello! I'm Michael Hilt. You'll find here a collection of personal projects I'm 
 5. [Contact](./path/to/Contact.md)
 
 ## Projects
-<--
+<!--
 ### [Project 1](./path/to/Project1.md)
 A brief description of what Project 1 is about.
 
@@ -23,4 +23,4 @@ A brief description of what Project 3 is about.
 -->
 
 ## Notes
-### [Diodes] (notes/diodes.md)
+### [Diodes] (./notes/diodes.md)
