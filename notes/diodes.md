@@ -34,6 +34,6 @@
 * Point Contact Diode
 
 ## Symbol Reference
-*www.electricaltechnology.org*\
+*www.electricaltechnology.org* \n
 <img src=../images/Diode_Symbols.JPG alt="Diode Symbol Reference" width="200"/>
 <!---![Diode Symbol Reference](../images/Diode_Symbols.JPG "Diode Symbol Reference")-->
