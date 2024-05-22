@@ -24,4 +24,4 @@ A brief description of what Project 3 is about.
 -->
 
 ## Notes
-1. [Diodes](./notes/diodes.md)
+1. [Diodes](https://github.com/hiltm/markdown/blob/main/notes/diodes.md)
