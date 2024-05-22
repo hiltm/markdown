@@ -35,4 +35,4 @@
 
 ## Symbol Reference
 *www.electricaltechnology.org*
-![Diode Symbol Reference](././images/Diode_Symbols.JPG "Diode Symbol Reference")
+![Diode Symbol Reference](../../images/Diode_Symbols.JPG "Diode Symbol Reference")
