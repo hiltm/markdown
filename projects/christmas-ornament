@@ -1,0 +1,15 @@
+# Christmas Ornament
+## Project Overview
+In my professiomal life, I have laid out multiple printed circuit boards including circuit design, board layout, and fabrication documentation. However, I wanted to have some projects to display that were not owned by the organizations that I could show off on my portfolio. Starting a (presumably) simple project to get my workflow set up. The project I have planned is a Christmas ornament that lights up my last name in LEDs.
+
+## Project Requirements/Desires
+* done in Altium
+* 2 layer board
+* circular PCB form
+* powered from coin battery
+* green and red LEDs
+
+## Next Steps/ToDos
+* set up Altium personal templates
+* set up personal part number tracking
+* set up part footprint repository
