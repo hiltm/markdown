@@ -11,5 +11,19 @@ In my professiomal life, I have laid out multiple printed circuit boards includi
 
 ## Next Steps/ToDos
 * set up Altium personal templates
+    * used [Altium Templates from Github user Fermium](https://github.com/Fermium/AltiumTemplates)
 * set up personal part number tracking
+    * perhaps not very interesting but XXX-YYYY where XXX is sequential project number depending on what's being worked and YYYY is another sequential for new part numbers within a project
 * set up part footprint repository
+    * this is also kept in the personal templates repo from above
+
+## Project Notes 
+### May 25, 2024
+<img src=../images/001-0001_first_pass.PNG alt="First pass at circuit" width="2000"/>
+
+Above is where I got to after focusing more on Altium configuration. The thought is to have all LEDs in parallel from one battery source. Added placeholder resistor to avoid burning out LEDs with too much current. I would ideally like to use a CR3032 coin battery as I'm used to them and they're readily available but I will run into voltage drop issues.
+
+Will need to consider other battery options; perhaps a LiPo or a Li-ion battery. Will also need to compute out exactly how much voltage drop and resistance to expect.
+
+* Li-ion - allows for charging would is a new capability for the board, more expensive
+* LiPo - safety concerns 
