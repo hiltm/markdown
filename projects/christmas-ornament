@@ -16,6 +16,8 @@ In my professiomal life, I have laid out multiple printed circuit boards includi
     * perhaps not very interesting but XXX-YYYY where XXX is sequential project number depending on what's being worked and YYYY is another sequential for new part numbers within a project
 * set up part footprint repository
     * this is also kept in the personal templates repo from above
+* decide on which battery technology is best for this project
+* place a hole cutout for ornament string
 
 ## Project Notes 
 ### May 25, 2024
@@ -27,3 +29,8 @@ Will need to consider other battery options; perhaps a LiPo or a Li-ion battery.
 
 * Li-ion - allows for charging would is a new capability for the board, more expensive
 * LiPo - safety concerns 
+
+### May 26, 2024
+Fixed an issue with my Altium libraries not being available across projects. Now my footprints load without a problem. 
+
+Set up the initial PCB file including a circle shape for the ornament. Currently 4" diameter but will likely shrink if using 0603 components. Will also do a cutout for the ornament string at some point.
