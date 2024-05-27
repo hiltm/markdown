@@ -36,3 +36,5 @@ Will need to consider other battery options; perhaps a LiPo or a Li-ion battery.
 Fixed an issue with my Altium libraries not being available across projects. Now my footprints load without a problem. 
 
 Set up the initial PCB file including a circle shape for the ornament. Currently 4" diameter but will likely shrink if using 0603 components. Will also do a cutout for the ornament string at some point.
+
+Changed component supplier preferences to just Digikey and Mouser. Added supplier links to all components used thus far. Picked out an on/off switch with the PCM12SMTR; still need to implement in circuit.
