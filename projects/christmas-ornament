@@ -31,6 +31,7 @@ Will need to consider other battery options; perhaps a LiPo or a Li-ion battery.
 
 * Li-ion - allows for charging would is a new capability for the board, more expensive
 * LiPo - safety concerns 
+* NiMHb- cheaper, shorter lifespan compared to Li-ion, less capacity 
 
 ### May 26, 2024
 Fixed an issue with my Altium libraries not being available across projects. Now my footprints load without a problem. 
@@ -38,3 +39,8 @@ Fixed an issue with my Altium libraries not being available across projects. Now
 Set up the initial PCB file including a circle shape for the ornament. Currently 4" diameter but will likely shrink if using 0603 components. Will also do a cutout for the ornament string at some point.
 
 Changed component supplier preferences to just Digikey and Mouser. Added supplier links to all components used thus far. Picked out an on/off switch with the PCM12SMTR; still need to implement in circuit.
+
+### June 4, 2024
+Researching battery options. LiPo doesn't have good form factor, it seems more geared for RC cars and projects with space for battery trays. 
+
+I am eyeing 18650 size lithium ion batteries. I found a dual battery holder that would fit mechanically on the back of my board (Mouser part # 534-1047). Cheaper options exist elsewhere. Now researching recharge circuit and will draft up shortly.
