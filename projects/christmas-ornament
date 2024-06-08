@@ -23,7 +23,7 @@ In my professiomal life, I have laid out multiple printed circuit boards includi
 
 ## Project Notes 
 ### May 25, 2024
-<img src=../images/001-0001_first_pass.PNG alt="First pass at circuit" width="2000"/>
+![Circuit update with series LEDs](images/001-0001_first_pass.PNG)
 
 Above is where I got to after focusing more on Altium configuration. The thought is to have all LEDs in parallel from one battery source. Added placeholder resistor to avoid burning out LEDs with too much current. I would ideally like to use a CR3032 coin battery as I'm used to them and they're readily available but I will run into voltage drop issues.
 
@@ -44,3 +44,13 @@ Changed component supplier preferences to just Digikey and Mouser. Added supplie
 Researching battery options. LiPo doesn't have good form factor, it seems more geared for RC cars and projects with space for battery trays. 
 
 I am eyeing 18650 size lithium ion batteries. I found a dual battery holder that would fit mechanically on the back of my board (Mouser part # 534-1047). Cheaper options exist elsewhere. Now researching recharge circuit and will draft up shortly.
+
+### June 7, 2024
+Adding battery holder to circuit. Completed nodal analysis to determine resistor values. Since the LEDs selected are 0603 package, I will select resistors to be the same. 
+* 3.7V batteries in series for 7.4V supply voltage.
+* 150060GS7500 green LEDs have 3.2V forward voltage at 20mA. Two in series is 6.4V voltage drop. 1V remaining divided by 20mA results in 50Ω. 
+* 150060SS7500 red LEDs have 1.9V  forward voltage at 20mA. Three in series is 5.7V voltage drop. 1.7V remaining divided by 20mA results in 85Ω.
+* Since the LEDs selected are 0603 package, I will select resistors to be the same. For such low volume, I will select 1% tolerance and spec up the power higher than needed to 1/3W.
+* 85Ω not available to going higher to 91Ω. Will result in slightly dimmer LEDs but that's fine.
+
+![Circuit update with series LEDs](images/001-0001_update_20240607.PNG)
