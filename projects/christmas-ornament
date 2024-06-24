@@ -54,3 +54,6 @@ Adding battery holder to circuit. Completed nodal analysis to determine resistor
 * 85Ω not available to going higher to 91Ω. Will result in slightly dimmer LEDs but that's fine.
 
 ![Circuit update with series LEDs](images/001-0001_update_20240607.PNG)
+
+### June 24, 2024
+Adding a second schematic sheet for battery charging. Found that the TP4056 is a dirt-cheap and commonly used Li-Ion charger IC so designing around that and a USB-C connector.
