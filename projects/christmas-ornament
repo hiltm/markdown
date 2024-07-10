@@ -57,3 +57,10 @@ Adding battery holder to circuit. Completed nodal analysis to determine resistor
 
 ### June 24, 2024
 Adding a second schematic sheet for battery charging. Found that the TP4056 is a dirt-cheap and commonly used Li-Ion charger IC so designing around that and a USB-C connector.
+
+### July 9, 2024
+Split up the LED circuit so that each LED gets its own resistor in parallel. This will allow me to tweak values more easily should I need to later on.
+Put in reverse polarity protection for LED circuit. Went stupid simple with a Schottky diode in series from the batteries to the load. Driving parameters for diode selection were common form factor and low forward voltage.
+Put in a P-channel MOSFET to disable to load when charging the batteries. Picked a drain to source voltage of 20V to be above fully charged battery voltage, and balanced between low Rds On (< 100mOhm) and a gate to source voltage of less than 3V. Picked a SOT-23 for accessible drop-ins if needed.
+
+Next steps would be to wire up the P-channel MOSFET and do final checks before starting PCB layout.
